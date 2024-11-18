@@ -1,5 +1,13 @@
 @import url("./style.css");
 
+#logo {
+  cursor: pointer;
+}
+
+#logo:hover {
+  opacity: 0.8;
+}
+
 .s-user-data h1,
 .s-order h1 {
   font-size: 1.8rem;
@@ -115,10 +123,6 @@ input::placeholder {
   border-radius: 0.6rem;
 }
 
-.payment-method-btn:hover {
-  background-color: #adadad;
-}
-
 .payment-method-btn i {
   color: var(--purple);
   font-size: 1.6rem;
@@ -177,16 +181,7 @@ input::placeholder {
   text-transform: uppercase;
 }
 
-.delete-btn:hover {
-  background-color: #adadad;
-}
-
 .delete-btn i {
-  font-size: 1.6rem;
-  color: var(--purple);
-}
-
-.delete-btn i:hover {
   font-size: 1.6rem;
   color: var(--purple);
 }
@@ -248,8 +243,4 @@ hr {
   color: var(--white);
   text-align: center;
   text-transform: uppercase;
-}
-
-.submit-btn:hover {
-  background-color: peru;
 }

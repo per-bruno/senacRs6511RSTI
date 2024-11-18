@@ -92,6 +92,12 @@ header div {
   & i {
     font-size: 2.2rem;
   }
+
+  transition: opacity 0.3s ease-in-out;
+}
+
+.shopping-btn:hover {
+  opacity: 0.8;
 }
 
 #header-shopping-btn {
@@ -223,6 +229,9 @@ header div {
 .label {
   margin-top: 11.2rem;
   margin-bottom: 1.6rem;
+  margin-right: 1rem;
+  padding: 0.25rem;
+  font-weight: bold;
 
   padding: 0.4rem 0.8rem;
 
@@ -241,8 +250,8 @@ header div {
 
   padding: 0.4rem 0.8rem;
 
-  color: darkred;
-  background-color: rgb(247, 160, 160);
+  color: firebrick;
+  background-color: lightcoral;
   border-radius: 10rem;
 
   font-size: 1rem;

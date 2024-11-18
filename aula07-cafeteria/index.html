@@ -46,9 +46,9 @@
           </p>
 
           <ul class="services">
-            <li>
+            <li><a href="checkout.html"
               <i class="ph-fill ph-shopping-cart-simple"></i>
-              Compra simples e segura
+              Compra simples e segura</a>
             </li>
             <li>
               <i class="ph-fill ph-timer"></i>
@@ -73,7 +73,7 @@
         <h1>Nossos cafés</h1>
 
         <div class="coffee-gallery">
-          <div class="coffe-card flex">
+          <div class="coffe-card flex" data-id="tradicional">
             <img src="assets/tradicional.png" alt="café tradicional" />
 
             <span class="label">tradicional</span>
@@ -94,14 +94,16 @@
                     type="button"
                     id="decrement"
                     class="decrement-btn amount-btn"
+                    data-id="tradicional"
                   >
                     -
                   </button>
-                  <span id="counter">1</span>
+                  <span id="counter" data-id="tradicional">1</span>
                   <button
                     type="button"
                     id="increment"
                     class="increment-btn amount-btn"
+                    data-id="tradicional"
                   >
                     +
                   </button>
@@ -113,7 +115,7 @@
             </div>
           </div>
 
-          <div class="coffe-card flex">
+          <div class="coffe-card flex" data-id="americano">
             <img src="assets/americano.png" alt="café expresso americano" />
             <div class="label-wrapper flex">
               <span class="label">tradicional</span>
@@ -136,14 +138,16 @@
                     type="button"
                     id="decrement"
                     class="decrement-btn amount-btn"
+                    data-id="americano"
                   >
                     -
                   </button>
-                  <span id="counter">1</span>
+                  <span id="counter" data-id="americano">1</span>
                   <button
                     type="button"
                     id="increment"
                     class="increment-btn amount-btn"
+                    data-id="americano"
                   >
                     +
                   </button>
@@ -155,7 +159,7 @@
             </div>
           </div>
 
-          <div class="coffe-card flex">
+          <div class="coffe-card flex" data-id="cremoso">
             <img
               src="assets/expresso-cremoso.png"
               alt="café expresso tradicional"
@@ -181,14 +185,16 @@
                     type="button"
                     id="decrement"
                     class="decrement-btn amount-btn"
+                    data-id="cremoso"
                   >
                     -
                   </button>
-                  <span id="counter">1</span>
+                  <span id="counter" data-id="cremoso">1</span>
                   <button
                     type="button"
                     id="increment"
                     class="increment-btn amount-btn"
+                    data-id="cremoso"
                   >
                     +
                   </button>
@@ -200,7 +206,7 @@
             </div>
           </div>
 
-          <div class="coffe-card flex">
+          <div class="coffe-card flex" data-id="gelado">
             <img src="assets/gelado.png" alt="café expresso gelado" />
 
             <div class="label-wrapper flex">
@@ -224,14 +230,16 @@
                     type="button"
                     id="decrement"
                     class="decrement-btn amount-btn"
+                    data-id="gelado"
                   >
                     -
                   </button>
-                  <span id="counter">1</span>
+                  <span id="counter" data-id="gelado">1</span>
                   <button
                     type="button"
                     id="increment"
                     class="increment-btn amount-btn"
+                    data-id="gelado"
                   >
                     +
                   </button>
@@ -243,7 +251,7 @@
             </div>
           </div>
 
-          <div class="coffe-card flex">
+          <div class="coffe-card flex" data-id="leite">
             <img src="assets/cafe-com-leite.png" alt="Café com Leite" />
 
             <div class="label-wrapper flex">
@@ -266,14 +274,16 @@
                     type="button"
                     id="decrement"
                     class="decrement-btn amount-btn"
+                    data-id="leite"
                   >
                     -
                   </button>
-                  <span id="counter">1</span>
+                  <span id="counter" data-id="leite">1</span>
                   <button
                     type="button"
                     id="increment"
                     class="increment-btn amount-btn"
+                    data-id="leite"
                   >
                     +
                   </button>
@@ -285,7 +295,7 @@
             </div>
           </div>
 
-          <div class="coffe-card flex">
+          <div class="coffe-card flex" data-id="latte">
             <img src="assets/latte.png" alt="latte" />
 
             <div class="label-wrapper flex">
@@ -310,14 +320,16 @@
                     type="button"
                     id="decrement"
                     class="decrement-btn amount-btn"
+                    data-id="latte"
                   >
                     -
                   </button>
-                  <span id="counter">1</span>
+                  <span id="counter" data-id="latte">1</span>
                   <button
                     type="button"
                     id="increment"
                     class="increment-btn amount-btn"
+                    data-id="latte"
                   >
                     +
                   </button>
@@ -329,7 +341,7 @@
             </div>
           </div>
 
-          <div class="coffe-card flex">
+          <div class="coffe-card flex" data-id="capuccino">
             <img src="assets/capuccino.png" alt="capuccino" />
 
             <div class="label-wrapper flex">
@@ -353,14 +365,16 @@
                     type="button"
                     id="decrement"
                     class="decrement-btn amount-btn"
+                    data-id="capuccino"
                   >
                     -
                   </button>
-                  <span id="counter">1</span>
+                  <span id="counter" data-id="capuccino">1</span>
                   <button
                     type="button"
                     id="increment"
                     class="increment-btn amount-btn"
+                    data-id="capuccino"
                   >
                     +
                   </button>
@@ -372,7 +386,7 @@
             </div>
           </div>
 
-          <div class="coffe-card flex">
+          <div class="coffe-card flex" data-id="macchiato">
             <img src="assets/macchiato.png" alt="macchiato" />
 
             <div class="label-wrapper flex">
@@ -396,14 +410,16 @@
                     type="button"
                     id="decrement"
                     class="decrement-btn amount-btn"
+                    data-id="macchiato"
                   >
                     -
                   </button>
-                  <span id="counter">1</span>
+                  <span id="counter" data-id="macchiato">1</span>
                   <button
                     type="button"
                     id="increment"
                     class="increment-btn amount-btn"
+                    data-id="macchiato"
                   >
                     +
                   </button>
@@ -414,7 +430,7 @@
               </div>
             </div>
           </div>
-          <div class="coffe-card flex">
+          <div class="coffe-card flex" data-id="mocaccino">
             <img src="assets/mochaccino.png" alt="mocaccino" />
 
             <div class="label-wrapper flex">
@@ -439,14 +455,16 @@
                     type="button"
                     id="decrement"
                     class="decrement-btn amount-btn"
+                    data-id="mocaccino"
                   >
                     -
                   </button>
-                  <span id="counter">1</span>
+                  <span id="counter" data-id="mocaccino">1</span>
                   <button
                     type="button"
                     id="increment"
                     class="increment-btn amount-btn"
+                    data-id="mocaccino"
                   >
                     +
                   </button>
@@ -457,7 +475,7 @@
               </div>
             </div>
           </div>
-          <div class="coffe-card flex">
+          <div class="coffe-card flex" data-id="chocolate">
             <img src="assets/chocolate-quente.png" alt="chocolate quente" />
 
             <div class="label-wrapper flex">
@@ -480,14 +498,16 @@
                     type="button"
                     id="decrement"
                     class="decrement-btn amount-btn"
+                    data-id="chocolate"
                   >
                     -
                   </button>
-                  <span id="counter">1</span>
+                  <span id="counter" data-id="chocolate">1</span>
                   <button
                     type="button"
                     id="increment"
                     class="increment-btn amount-btn"
+                    data-id="chocolate"
                   >
                     +
                   </button>
@@ -498,7 +518,7 @@
               </div>
             </div>
           </div>
-          <div class="coffe-card flex">
+          <div class="coffe-card flex" data-id="cubano">
             <img src="assets/cubano.png" alt="cubano" />
 
             <div class="label-wrapper flex">
@@ -522,14 +542,16 @@
                     type="button"
                     id="decrement"
                     class="decrement-btn amount-btn"
+                    data-id="cubano"
                   >
                     -
                   </button>
-                  <span id="counter">1</span>
+                  <span id="counter" data-id="cubano">1</span>
                   <button
                     type="button"
                     id="increment"
                     class="increment-btn amount-btn"
+                    data-id="cubano"
                   >
                     +
                   </button>
@@ -540,7 +562,7 @@
               </div>
             </div>
           </div>
-          <div class="coffe-card flex">
+          <div class="coffe-card flex" data-id="havaiano">
             <img src="assets/havaiano.png" alt="havaiano" />
 
             <div class="label-wrapper flex">
@@ -563,14 +585,16 @@
                     type="button"
                     id="decrement"
                     class="decrement-btn amount-btn"
+                    data-id="havaiano"
                   >
                     -
                   </button>
-                  <span id="counter">1</span>
+                  <span id="counter" data-id="havaiano">1</span>
                   <button
                     type="button"
                     id="increment"
                     class="increment-btn amount-btn"
+                    data-id="havaiano"
                   >
                     +
                   </button>
@@ -581,7 +605,7 @@
               </div>
             </div>
           </div>
-          <div class="coffe-card flex">
+          <div class="coffe-card flex" data-id="arabe">
             <img src="assets/arabe.png" alt="árabe" />
 
             <div class="label-wrapper flex">
@@ -604,14 +628,16 @@
                     type="button"
                     id="decrement"
                     class="decrement-btn amount-btn"
+                    data-id="arabe"
                   >
                     -
                   </button>
-                  <span id="counter">1</span>
+                  <span id="counter" data-id="arabe">1</span>
                   <button
                     type="button"
                     id="increment"
                     class="increment-btn amount-btn"
+                    data-id="arabe"
                   >
                     +
                   </button>
@@ -622,7 +648,7 @@
               </div>
             </div>
           </div>
-          <div class="coffe-card flex">
+          <div class="coffe-card flex" data-id="irlandes">
             <img src="assets/irlandes.png" alt="irlandês" />
 
             <div class="label-wrapper flex">
@@ -646,14 +672,16 @@
                     type="button"
                     id="decrement"
                     class="decrement-btn amount-btn"
+                    data-id="irlandes"
                   >
                     -
                   </button>
-                  <span id="counter">1</span>
+                  <span id="counter" data-id="irlandes">1</span>
                   <button
                     type="button"
                     id="increment"
                     class="increment-btn amount-btn"
+                    data-id="irlandes"
                   >
                     +
                   </button>
@@ -667,5 +695,8 @@
         </div>
       </section>
     </main>
+
+    <script src="./main.js"></script>
+    <script src="order.js"></script>
   </body>
 </html>
