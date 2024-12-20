@@ -1,0 +1,187 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f7f3;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 250px;
+}
+
+p {
+  font-size: 24px;
+  line-height: 2;
+  color: #666;
+  margin: 80px;
+  background: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  flex-direction: row;
+}
+
+#highlight {
+  color: rgb(180, 180, 180);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.description {
+  margin: 80px;
+}
+
+.top-logo-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.top-logo-img img {
+  width: 94px;
+  height: 54px;
+  margin-left: 5px;
+}
+
+.title {
+  font-style: Road Rage;
+  font-size: 84px;
+  font-weight: bold;
+  line-height: 1.4;
+  margin: 10px 0;
+  justify-content: center;
+  line-height: 0.8;
+}
+
+#sub-title {
+  color: #ffa500;
+  font-style: italic;
+  font-size: 50px;
+  font-family: monospace;
+  margin: -40px;
+  background: none;
+}
+
+.ghost-bg {
+  transform: rotate(320deg);
+  display: flex;
+  position: relative;
+  background: none;
+  justify-content: flex-end;
+}
+
+.bird-heart {
+  display: flex;
+  position: relative;
+  background: none;
+  justify-content: flex-end;
+}
+
+.board {
+  background-color: #ffa500;
+  margin: 20px;
+}
+
+.button {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: color 0.3s ease;
+}
+
+.bears {
+  display: flex;
+  background: none;
+  flex-direction: row;
+}
+
+.how-to-use {
+  transform: rotate(270deg);
+  font-size: 50px;
+  color: rgb(180, 180, 180);
+}
+
+.bear1,
+.bear2,
+.bear3 {
+  margin: -40px;
+}
+
+.topics {
+  font-size: 30px;
+  line-height: 30px;
+  margin: 2px;
+}
+
+#topic-space {
+  margin: 70px;
+}
+
+.topic {
+  justify-content: start;
+}
+
+.topic-text {
+  color: rgb(180, 180, 180);
+}
+
+.on-stories {
+  font-size: 30px;
+  margin-bottom: -40px;
+  justify-content: center;
+}
+
+.stories-on-title {
+  color: rgb(180, 180, 180);
+}
+
+#tell {
+  color: #fcc26b;
+}
+
+.stories {
+  font-size: 200px;
+}
+
+#frog {
+  size: 80px;
+}
+
+.arrow {
+  transform: rotate(95deg);
+}
+
+.on-title {
+  margin: 100px;
+  color: #fcc26b;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  font-size: 35px;
+}
+
+.sec-title {
+  margin: -135px;
+  font-size: 100px;
+}
